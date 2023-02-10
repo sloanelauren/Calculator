@@ -19,7 +19,11 @@ public class Calculator {
         } else if (x2 == 3) {
             System.out.println("The two whole numbers multiplied equals " + (x * x1));
         } else if (x2 == 4) {
+            if(x1 == 0) {
+                System.out.println("Error: Divide by Zero");
+            } else {
             System.out.println("The two whole numbers divided equals " + (x / x1));
+            }
         } else {
             System.out.println("You did not enter the right input.");
         }
