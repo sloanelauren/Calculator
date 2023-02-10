@@ -6,8 +6,8 @@ public class Calculator {
 
         System.out.println("Enter 2 whole numbers.");
 
-        int x = sc.nextInt();
-        int x1 = sc.nextInt();
+        float x = sc.nextFloat();
+        float x1 = sc.nextFloat();
 
         System.out.println("Would you like to preform addition(1), subtraction(2), multiplication(3), or divsion(4)");
         int x2 = sc.nextInt();
