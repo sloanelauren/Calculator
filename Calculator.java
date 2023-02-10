@@ -9,6 +9,16 @@ public class Calculator {
         int x = sc.nextInt();
         int x1 = sc.nextInt();
 
-        System.out.println("The two whole numbers added together equals " + (x + x1));
+        System.out.println("Would you like to preform addition(1) or subtraction(2)");
+        int x2 = sc.nextInt();
+
+        if (x2 == 1) {
+            System.out.println("The two whole numbers added together equals " + (x + x1));  
+        } else if (x2 == 2) {
+            System.out.println("The two whole numbers subtracted equals " + (x - x1));
+        } else {
+            System.out.println("You did not enter the right input.");
+        }
+
     }
 }
